@@ -89,6 +89,7 @@ function LineChart() {
   });
 
   return (
+    // @ts-ignore - Three.js line element, not SVG
     <line ref={lineRef}>
       <bufferGeometry>
         <bufferAttribute attach="attributes-position" args={[positions, 3]} />
@@ -130,6 +131,7 @@ function LineChart2() {
   });
 
   return (
+    // @ts-ignore - Three.js line element, not SVG
     <line ref={lineRef}>
       <bufferGeometry>
         <bufferAttribute attach="attributes-position" args={[positions, 3]} />
