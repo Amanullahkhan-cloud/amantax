@@ -58,7 +58,7 @@ function BarChart() {
 
 // Large Flowing Line Chart
 function LineChart() {
-  const lineRef = useRef<THREE.Line>(null);
+  const lineRef = useRef<THREE.LineSegments>(null);
   const pointCount = 80;
 
   const positions = useMemo(() => {
@@ -89,19 +89,18 @@ function LineChart() {
   });
 
   return (
-    // @ts-ignore - Three.js line element, not SVG
-    <line ref={lineRef}>
+    <lineSegments ref={lineRef}>
       <bufferGeometry>
         <bufferAttribute attach="attributes-position" args={[positions, 3]} />
       </bufferGeometry>
       <lineBasicMaterial color="#6EE7B7" transparent opacity={0.6} linewidth={3} />
-    </line>
+    </lineSegments>
   );
 }
 
 // Second Line Chart (Different color)
 function LineChart2() {
-  const lineRef = useRef<THREE.Line>(null);
+  const lineRef = useRef<THREE.LineSegments>(null);
   const pointCount = 80;
 
   const positions = useMemo(() => {
@@ -131,13 +130,12 @@ function LineChart2() {
   });
 
   return (
-    // @ts-ignore - Three.js line element, not SVG
-    <line ref={lineRef}>
+    <lineSegments ref={lineRef}>
       <bufferGeometry>
         <bufferAttribute attach="attributes-position" args={[positions, 3]} />
       </bufferGeometry>
       <lineBasicMaterial color="#10B981" transparent opacity={0.4} linewidth={2} />
-    </line>
+    </lineSegments>
   );
 }
 
