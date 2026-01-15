@@ -8,6 +8,8 @@ import Navbar from './components/Navbar';
 import ShinyButton from './components/ShinyButton';
 import { ServiceCard, StatCard, TestimonialCard } from './components/GlassCard';
 import ClientLogos from './components/ClientLogos';
+import EconomyDashboard from './components/EconomyDashboard';
+import FinanceNewsBanner from './components/FinanceNewsBanner';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
 
@@ -309,6 +311,12 @@ export default function Home() {
 
       {/* Client Logos */}
       <ClientLogos />
+
+      {/* Finance News Banner */}
+      <FinanceNewsBanner />
+
+      {/* Economy Dashboard */}
+      <EconomyDashboard />
 
       {/* Services Section */}
       <section id="services" ref={servicesRef} className="section-padding">
