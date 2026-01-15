@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <!-- NBP - National Bank of Pakistan - Official Blue color -->
+  <defs>
+    <linearGradient id="nbpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00529B"/>
+      <stop offset="100%" style="stop-color:#003D73"/>
+    </linearGradient>
+  </defs>
+  <!-- Official eagle-inspired shape -->
+  <rect x="5" y="10" width="44" height="40" rx="5" fill="url(#nbpGrad)"/>
+  <text x="27" y="38" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="18" font-weight="900" fill="#FFF">NBP</text>
+  <text x="60" y="38" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#00529B">National Bank</text>
+</svg>

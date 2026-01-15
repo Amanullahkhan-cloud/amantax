@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <!-- Packages Limited - Official Red color -->
+  <defs>
+    <linearGradient id="pkgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8102E"/>
+      <stop offset="100%" style="stop-color:#9E0D24"/>
+    </linearGradient>
+  </defs>
+  <!-- Package/Box shape -->
+  <rect x="8" y="12" width="36" height="36" rx="4" fill="url(#pkgGrad)"/>
+  <rect x="12" y="16" width="28" height="28" rx="2" fill="none" stroke="#FFF" stroke-width="2"/>
+  <line x1="26" y1="16" x2="26" y2="44" stroke="#FFF" stroke-width="1.5"/>
+  <line x1="12" y1="30" x2="40" y2="30" stroke="#FFF" stroke-width="1.5"/>
+  <text x="55" y="38" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#C8102E">Packages Ltd</text>
+</svg>

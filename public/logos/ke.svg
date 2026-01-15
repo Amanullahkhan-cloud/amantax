@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <!-- K-Electric - Official Yellow/Gold color -->
+  <defs>
+    <linearGradient id="keGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD100"/>
+      <stop offset="100%" style="stop-color:#FFA500"/>
+    </linearGradient>
+  </defs>
+  <!-- Lightning bolt K -->
+  <circle cx="28" cy="30" r="24" fill="#1a1a1a"/>
+  <path d="M22 15 L32 28 L26 28 L34 45 L24 32 L30 32 Z" fill="url(#keGrad)"/>
+  <text x="65" y="40" font-family="Arial Black, sans-serif" font-size="20" font-weight="900" fill="#FFD100">K-Electric</text>
+</svg>
