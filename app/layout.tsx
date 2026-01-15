@@ -8,11 +8,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AmaanTax | Professional Tax Consultancy in Pakistan",
+  title: "MAK CONSULTANCY | Professional Tax Consultancy in Pakistan",
   description: "Pakistan's trusted tax consultancy firm. Expert services in tax filing, corporate tax planning, NTN registration, FBR compliance, and wealth management. 15+ years of experience serving 5000+ clients.",
   keywords: "tax consultancy Pakistan, FBR, NTN registration, tax filing, corporate tax, wealth management, Islamabad, Karachi, Lahore",
   openGraph: {
-    title: "AmaanTax | Professional Tax Consultancy in Pakistan",
+    title: "MAK CONSULTANCY | Professional Tax Consultancy in Pakistan",
     description: "Pakistan's trusted tax consultancy firm. Expert services in tax filing, corporate tax planning, and FBR compliance.",
     type: "website",
     locale: "en_PK",

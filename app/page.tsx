@@ -97,7 +97,7 @@ const stats = [
 
 const testimonials = [
   {
-    quote: 'AmaanTax saved our company millions in taxes through their strategic planning. Their expertise in corporate tax law is unmatched.',
+    quote: 'MAK CONSULTANCY saved our company millions in taxes through their strategic planning. Their expertise in corporate tax law is unmatched.',
     author: 'Ahmed Khan',
     company: 'CEO, Tech Solutions Pvt Ltd',
     rating: 5,
@@ -109,7 +109,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    quote: 'Getting my NTN was a breeze with AmaanTax. They completed everything in less than 24 hours. Highly recommended!',
+    quote: 'Getting my NTN was a breeze with MAK CONSULTANCY. They completed everything in less than 24 hours. Highly recommended!',
     author: 'Hassan Raza',
     company: 'Freelance Consultant',
     rating: 5,

@@ -19,7 +19,7 @@ export default function CTASection() {
         </h2>
         
         <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-          Join 5,000+ satisfied clients who trust AmaanTax for their tax needs. 
+          Join 5,000+ satisfied clients who trust MAK CONSULTANCY for their tax needs. 
           Get a free consultation and discover how we can save you time and money.
         </p>
         
@@ -31,7 +31,7 @@ export default function CTASection() {
             Call Now: +92-343-1917698
           </ShinyButton>
           
-          <ShinyButton href="mailto:info@amaantax.pk" variant="secondary">
+          <ShinyButton href="mailto:info@makconsultancy.pk" variant="secondary">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>

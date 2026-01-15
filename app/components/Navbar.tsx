@@ -34,10 +34,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center">
-            <span className="text-black font-bold text-xl">A</span>
+            <span className="text-black font-bold text-xl">M</span>
           </div>
           <span className="text-xl font-bold">
-            Amaan<span className="text-emerald-400">Tax</span>
+            MAK <span className="text-emerald-400">CONSULTANCY</span>
           </span>
         </Link>
 

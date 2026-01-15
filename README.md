@@ -1,4 +1,4 @@
-# AmaanTax - Professional Tax Consultancy Website
+# MAK CONSULTANCY - Professional Tax Consultancy Website
 
 Premium tax consultancy website for Pakistan, built with Next.js, Three.js, GSAP, and Tailwind CSS.
 

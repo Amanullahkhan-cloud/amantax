@@ -28,10 +28,10 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-6">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center">
-                <span className="text-black font-bold text-xl">A</span>
+                <span className="text-black font-bold text-xl">M</span>
               </div>
               <span className="text-xl font-bold">
-                Amaan<span className="text-emerald-400">Tax</span>
+                MAK <span className="text-emerald-400">CONSULTANCY</span>
               </span>
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -114,7 +114,7 @@ export default function Footer() {
                 <svg className="w-5 h-5 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span>info@amaantax.pk</span>
+                <span>info@makconsultancy.pk</span>
               </li>
             </ul>
           </div>
@@ -123,7 +123,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            © {currentYear} AmaanTax. All rights reserved.
+            © {currentYear} MAK CONSULTANCY. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm">
             FBR Registered Tax Consultants
